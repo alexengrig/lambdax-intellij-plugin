@@ -3,10 +3,11 @@ plugins {
     id 'org.jetbrains.intellij' version '0.4.10'
 }
 
-group 'io.github.alexengrig'
-version '0.1.0-SNAPSHOT'
+group pluginGroup
+version pluginVersion
 
-sourceCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     mavenCentral()
@@ -18,8 +19,12 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2019.2.2'
+    pluginName pluginArtifact
+    version ideaVersion
+    type ideaType
+    plugins ideaPlugins
 }
+
 patchPluginXml {
     changeNotes """
       Add change notes here.<br>
