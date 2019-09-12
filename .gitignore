@@ -1,5 +1,2 @@
-/.gradle/
-/gradle/
-/.idea/
-/gradlew
-/gradlew.bat
+.gradle/
+.idea/
