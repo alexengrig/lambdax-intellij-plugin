@@ -3,10 +3,7 @@
   <name>LambdaX</name>
   <vendor email="alexengrigdev@gmail.com" url="https://github.com/alexengrig">Grig Alex</vendor>
 
-  <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
-    ]]></description>
+  <description>The IntelliJ IDEA plugin for the LambdaX</description>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
