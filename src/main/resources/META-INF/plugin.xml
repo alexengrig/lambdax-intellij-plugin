@@ -45,6 +45,15 @@
       level="WARNING"
       implementationClass="io.github.alexengrig.lambdax.intellij.plugin.inspection.SampleInspection"
     />
+    <localInspection
+      language="JAVA"
+      groupPath="LambdaX"
+      groupName="Collection"
+      displayName="MapX#get"
+      enabledByDefault="true"
+      implementationClass="io.github.alexengrig.lambdax.intellij.plugin.inspection.collection.MapXGetInspection"
+      level="INFO"
+    />
   </extensions>
 
   <actions>
