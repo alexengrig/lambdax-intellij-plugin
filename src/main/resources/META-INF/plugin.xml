@@ -4,6 +4,7 @@
   <vendor email="alexengrigdev@gmail.com" url="https://github.com/alexengrig">Grig Alex</vendor>
 
   <description>The IntelliJ IDEA plugin of the LambdaX.</description>
+  <change-notes>The first release.</change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
