@@ -23,4 +23,8 @@ public final class MessageUtils {
     public static String pluginPrefixText(String text) {
         return MessageBundle.message("plugin.name") + ": " + text;
     }
+
+    public static String usePrefixText(String text) {
+        return MessageBundle.message("word.use") + " " + text;
+    }
 }
