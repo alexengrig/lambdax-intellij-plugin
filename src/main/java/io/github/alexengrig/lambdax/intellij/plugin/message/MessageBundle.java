@@ -22,7 +22,7 @@ import org.jetbrains.annotations.PropertyKey;
 
 import java.util.ResourceBundle;
 
-final class MessageBundle {
+public final class MessageBundle {
     @NonNls
     private static final String BUNDLE_NAME = "messages.pluginBundle";
     private static final ResourceBundle BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME);
@@ -30,7 +30,7 @@ final class MessageBundle {
     private MessageBundle() {
     }
 
-    static String message(@PropertyKey(resourceBundle = BUNDLE_NAME) String key, Object... params) {
+    public static String message(@PropertyKey(resourceBundle = BUNDLE_NAME) String key, Object... params) {
         return CommonBundle.message(BUNDLE, key, params);
     }
 }
