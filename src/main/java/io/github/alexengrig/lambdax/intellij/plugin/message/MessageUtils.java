@@ -16,21 +16,11 @@
 
 package io.github.alexengrig.lambdax.intellij.plugin.message;
 
-import com.intellij.CommonBundle;
-import org.jetbrains.annotations.NonNls;
-import org.jetbrains.annotations.PropertyKey;
-
-import java.util.ResourceBundle;
-
-final class MessageBundle {
-    @NonNls
-    private static final String BUNDLE_NAME = "messages.pluginBundle";
-    private static final ResourceBundle BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME);
-
-    private MessageBundle() {
+public final class MessageUtils {
+    private MessageUtils() {
     }
 
-    static String message(@PropertyKey(resourceBundle = BUNDLE_NAME) String key, Object... params) {
-        return CommonBundle.message(BUNDLE, key, params);
+    public static String pluginPrefixText(String text) {
+        return MessageBundle.message("plugin.name") + ": " + text;
     }
 }
