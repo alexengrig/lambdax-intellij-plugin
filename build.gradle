@@ -24,9 +24,6 @@ intellij {
     type ideaType
     plugins ideaPlugins
 }
-
-patchPluginXml {
-    changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+publishPlugin {
+    channels 'alpha'
 }
