@@ -2,7 +2,8 @@
 
 The [IntelliJ IDEA](https://github.com/JetBrains/intellij-community) plugin of the [LambdaX](https://github.com/alexengrig/lambdax).
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/13009-lambdax?style=for-the-badge)](https://plugins.jetbrains.com/plugin/13009-lambdax)
+[![GitHub](https://img.shields.io/github/license/alexengrig/lambdax-intellij-plugin?style=for-the-badge)](LICENSE)
 
 ## License
 
